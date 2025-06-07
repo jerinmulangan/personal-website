@@ -193,7 +193,7 @@ export default function Home() {
             />
              <ProjectCard
               title="Pac-Man Search Game"
-              description="DFS, BFS, UCS, and A* to guide Pac‑Man through mazes."
+              description="DFS, BFS, UCS, and A* algorithms to guide Pac‑Man AI through mazes."
               tags={["Python"]}
               githubUrl="https://github.com/jerinmulangan/pacman-search"
               demoUrl="https://github.com/jerinmulangan/pacman-search/blob/main/README.md"
