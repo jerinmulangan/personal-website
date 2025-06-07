@@ -56,7 +56,7 @@ export default function ProjectCard({ title, description, tags, githubUrl, demoU
           <Button size="sm" asChild>
             <Link href={demoUrl} target="_blank">
               <ExternalLink className="mr-2 h-4 w-4" />
-              Demo
+              README
             </Link>
           </Button>
         </CardFooter>
