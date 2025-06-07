@@ -157,45 +157,66 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tight">Projects</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <ProjectCard
-              title="E-commerce Platform"
-              description="A full-stack e-commerce platform with payment integration, user authentication, and admin dashboard."
-              tags={["Next.js", "Node.js", "MongoDB", "Stripe"]}
-              githubUrl="https://github.com/johndoe/ecommerce"
-              demoUrl="https://ecommerce-demo.com"
+              title="Enron Spam Email Detection"
+              description="Spam detector benchmarking Multinomial / Bernoulli Naïve Bayes and logistic regression."
+              tags={["Python", "Pandas", "NumPy", "Scikit-Learn"]}
+              githubUrl="https://github.com/jerinmulangan/enron-spam-classification"
+              demoUrl="https://github.com/jerinmulangan/enron-spam-classification/blob/main/README.md"
             />
             <ProjectCard
-              title="Data Visualization Tool"
-              description="An interactive dashboard for visualizing complex datasets with filtering and export capabilities."
-              tags={["React", "D3.js", "Express", "PostgreSQL"]}
-              githubUrl="https://github.com/johndoe/data-viz"
-              demoUrl="https://data-viz-demo.com"
+              title="Convolutional Neural Networks"
+              description="3‑fold benchmark of MLPs and CNNs on MNIST / CIFAR‑10"
+              tags={["Python", "PyTorch", "Jupyter Notebook", "TorchVision", "MatPlotLib"]}
+              githubUrl="https://github.com/jerinmulangan/convolutional-neural-networks"
+              demoUrl="https://github.com/jerinmulangan/convolutional-neural-networks/blob/main/README.md"
             />
             <ProjectCard
-              title="Task Management App"
-              description="A collaborative task management application with real-time updates and team features."
-              tags={["React", "Firebase", "Tailwind CSS"]}
-              githubUrl="https://github.com/johndoe/task-app"
-              demoUrl="https://task-app-demo.com"
+              title="Tree-Based Classifiers and Ensemble Methods"
+              description="Ensemble tree models (Decision Trees, Bagging, Random Forest, Gradient Boost) with ~99.7 % accuracy on CNF sets and MNIST."
+              tags={["Python", "Scikit-Learn", "Pandas"]}
+              githubUrl="https://github.com/jerinmulangan/tree-based-classifiers"
+              demoUrl="https://github.com/jerinmulangan/tree-based-classifiers/blob/main/README.md"
             />
             <ProjectCard
-              title="Weather Forecast App"
-              description="A weather application that provides accurate forecasts using multiple weather APIs."
-              tags={["JavaScript", "OpenWeather API", "Chart.js"]}
-              githubUrl="https://github.com/johndoe/weather-app"
-              demoUrl="https://weather-app-demo.com"
+              title="Support Vector Machines on Kernels"
+              description="Grid‑search SVM kernels (Linear, Poly, RBF) on MNIST (~96.7 % test accuracy)."
+              tags={["Python", "Pandas", "NumPy", "MatPlotLib", "Scikit-Learn"]}
+              githubUrl="https://github.com/jerinmulangan/support-vector-machines"
+              demoUrl="https://github.com/jerinmulangan/support-vector-machines/blob/main/README.md"
+            />
+             <ProjectCard
+              title="SQL Database Console"
+              description="MySQL 8 manufacturing schema with views/triggers, Swing JDBC explorer, and Python‑seeded data."
+              tags={["MySQL", "Java", "Seing", "JDBC", "Python", "Faker"]}
+              githubUrl="https://github.com/jerinmulangan/sql-company"
+              demoUrl="https://github.com/jerinmulangan/sql-company/blob/main/README.md"
+            />
+             <ProjectCard
+              title="Pac-Man Search Game"
+              description="DFS, BFS, UCS, and A* to guide Pac‑Man through mazes."
+              tags={["Python"]}
+              githubUrl="https://github.com/jerinmulangan/pacman-search"
+              demoUrl="https://github.com/jerinmulangan/pacman-search/blob/main/README.md"
+            />
+             <ProjectCard
+              title="TL13 Compiler"
+              description="Fully pipelined C compiler for TL13 language that lexes, parses and generates byte-code."
+              tags={["C", "Flex", "Bison", "Linux"]}
+              githubUrl="https://github.com/jerinmulangan/tl13-compiler"
+              demoUrl="https://github.com/jerinmulangan/tl13-compiler/blob/main/README.md"
             />
             <ProjectCard
               title="Dijkstra Algorithm Visualizer"
               description="Real‑time Dijkstra visualizer in C++/SFML."
               tags={["C++", "SFML Framework", "Python"]}
-              githubUrl="https://github.com/jerinmulangan/dir/tree/main/personal_projects/visual_dijkstra"
-              demoUrl="https://github.com/jerinmulangan/dir/tree/main/personal_projects/visual_dijkstra"
+              githubUrl="https://github.com/jerinmulangan/dijkstra-visualizer"
+              demoUrl="https://github.com/jerinmulangan/dijkstra-visualizer/blob/main/README.md"
             />
             <ProjectCard
               title="Portfolio Website"
               description="This portfolio website showcasing my projects and skills."
               tags={["Next.js", "TypeScript", "Framer Motion"]}
-              githubUrl="https://github.com/jerinmulangan/dir/tree/main/personal_projects/personal_website"
+              githubUrl="https://github.com/jerinmulangan/personal-website"
               demoUrl="#"
             />
           </div>
