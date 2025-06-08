@@ -187,7 +187,7 @@ export default function Home() {
              <ProjectCard
               title="SQL Database Console"
               description="MySQL 8 manufacturing schema with views/triggers, Swing JDBC explorer, and Python‑seeded data."
-              tags={["MySQL", "Java", "Seing", "JDBC", "Python", "Faker"]}
+              tags={["MySQL", "Java", "Swing", "JDBC", "Python", "Faker"]}
               githubUrl="https://github.com/jerinmulangan/sql-company"
               demoUrl="https://github.com/jerinmulangan/sql-company/blob/main/README.md"
             />
@@ -211,6 +211,13 @@ export default function Home() {
               tags={["C++", "SFML Framework", "Python"]}
               githubUrl="https://github.com/jerinmulangan/dijkstra-visualizer"
               demoUrl="https://github.com/jerinmulangan/dijkstra-visualizer/blob/main/README.md"
+            />
+            <ProjectCard
+              title="FinFinity Personal Financial Tracker"
+              description="Personal financial management app and tracker with AI chatbot made with Express.js and SQL backend."
+              tags={["Express.js", "SQL", "HTML", "CSS", "GPT API"]}
+              githubUrl="https://github.com/jerinmulangan/finfinity"
+              demoUrl="https://github.com/jerinmulangan/finfinity/blob/main/README.md"
             />
             <ProjectCard
               title="Portfolio Website"
